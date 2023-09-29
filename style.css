@@ -3,6 +3,12 @@ body h1 {
  text-align: center;
 }
 
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+    text-align: right;
+    margin-right: 300px;
+}
+
 img {
     width: 400px;
     height: auto;
@@ -10,9 +16,35 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    border-radius: 30px;
 }
 
 div {
     display: table;
     margin: 0 auto;
+}
+
+#buttons li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: black;
+    margin-right: 30px;
+    width: 200px;
+    line-height: 60px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+#buttons li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#buttons li a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #0690c2;
+    border-radius: 30px;
 }
